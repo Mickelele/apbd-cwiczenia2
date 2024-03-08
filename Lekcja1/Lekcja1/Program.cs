@@ -1,6 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Hello, World!"); //first mod
-Console.WriteLine("Hello, World!"); //second mod
-Console.WriteLine("Hello, World!"); //third mod
+static double GetAverage(int[] arr)
+{
+    int suma = 0;
+    foreach (var VARIABLE in arr)
+    {
+        suma += VARIABLE;
+    }
+    return (double)suma/arr.Length;
+}
+
+//int[] arr = { 1,2,3,4 };
+//double avg = GetAverage(arr);
+//Console.WriteLine(avg);
