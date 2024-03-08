@@ -10,6 +10,6 @@ static double GetAverage(int[] arr)
     return (double)suma/arr.Length;
 }
 
-//int[] arr = { 1,2,3,4 };
-//double avg = GetAverage(arr);
-//Console.WriteLine(avg);
+int[] arr = { 1,2,3,4 };
+double avg = GetAverage(arr);
+Console.WriteLine(avg);
