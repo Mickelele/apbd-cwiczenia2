@@ -13,3 +13,6 @@ static double GetAverage(int[] arr)
 int[] arr = { 1,2,3,4 };
 double avg = GetAverage(arr);
 Console.WriteLine(avg);
+
+
+Console.WriteLine("DOM");
