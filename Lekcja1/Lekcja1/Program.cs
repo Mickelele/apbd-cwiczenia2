@@ -17,12 +17,12 @@ int[] arr = { 5,7,44,435,59043 };
 
 static int GetMax(int[] arr)
 {
-    int max = arr[0];
+    int maks = arr[0];
     foreach (var elem in arr)
     {
-        if (elem > max) max = elem;
+        if (elem > maks) maks = elem;
     }
-    return max;
+    return maks;
 }
 
 int max = GetMax(arr);
