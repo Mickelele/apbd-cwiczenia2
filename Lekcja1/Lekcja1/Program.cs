@@ -17,21 +17,14 @@ int[] arr = { 5,7,44,435,59043 };
 
 static int GetMax(int[] arr)
 {
-<<<<<<< HEAD
+
     int nowa = arr[0];
     foreach (var elem in arr)
     {
         if (elem > nowa) nowa = elem;
     }
     return nowa;
-=======
-    int max = arr[0];
-    foreach (var elem in arr)
-    {
-        if (elem > max) max = elem;
-    }
-    return max;
->>>>>>> feature-new
+
 }
 
 int max = GetMax(arr);
